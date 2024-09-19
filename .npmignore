@@ -1,0 +1,5 @@
+docs
+test
+tsconfig.json
+*.code-workspace
+.vscode
