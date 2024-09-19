@@ -1,5 +1,5 @@
 {
-    "name": "@andre-hctulc/nextjs2openapi",
+    "name": "@andre-hctulc/fsts-api",
     "version": "0.0.1",
     "description": "",
     "main": "dist/index.js",
@@ -9,8 +9,8 @@
     },
     "scripts": {
         "tc": "tsc--noEmit",
-        "tc:watch": "tsc--noEmit --watch",
-        "build": ""
+        "tc:watch": "tsc --noEmit --watch",
+        "build": "tsc"
     },
     "keywords": [],
     "author": "",
@@ -18,13 +18,12 @@
     "dependencies": {
         "commander": "^12.1.0",
         "glob": "^11.0.0",
-        "js-yaml": "^4.1.0"
+        "js-yaml": "^4.1.0",
+        "typescript-json-schema": "^0.65.1"
     },
     "devDependencies": {
         "@types/js-yaml": "^4.0.9",
         "orval": "^7.1.1",
-        "ts-node": "^10.9.2",
-        "tsx": "^4.19.1",
-        "typescript-json-schema": "^0.65.1"
+        "tsx": "^4.19.1"
     }
 }
