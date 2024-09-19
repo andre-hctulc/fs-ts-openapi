@@ -7,7 +7,7 @@ File based TypeScript api -> OpenAPI schema
 -   Document your api with TypeScript Interfaces
 -   generate Open API Schemas from fs based apis.
     E.g. [Next.js](https://nextui.org) route handlers or [Nuxt](https://nuxt.com) api handlers.
--   chain [orval](https://orval.dev), to auto generate you api client
+-   chain [orval](https://orval.dev), to auto generate your api client
 -   Base config
 
 ## Usage
