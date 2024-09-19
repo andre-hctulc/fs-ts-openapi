@@ -1,12 +1,13 @@
 {
     "name": "@andre-hctulc/fsts-api",
     "version": "0.0.1",
-    "description": "",
+    "description": "An OpenAPI schema generator for fs based apis.",
     "main": "dist/index.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/andre-hctulc/fsts-api.git"
     },
+    "bin": "dist/cli.js",
     "scripts": {
         "tc": "tsc--noEmit",
         "tc:watch": "tsc --noEmit --watch",

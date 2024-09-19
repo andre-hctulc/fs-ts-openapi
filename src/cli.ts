@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import path from "path";
 import { Parser } from "./parser";
 import yaml from "js-yaml";
