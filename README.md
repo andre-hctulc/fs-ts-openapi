@@ -1,6 +1,6 @@
 # fsts-api
 
-File based api -> OpenAPI schema
+File based TypeScript api -> OpenAPI schema
 
 ## Features
 
