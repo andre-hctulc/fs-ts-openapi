@@ -1,7 +1,7 @@
 {
     "name": "@andre-hctulc/fsts-api",
     "version": "0.0.1",
-    "description": "An OpenAPI schema generator for fs based apis.",
+    "description": "An OpenAPI schema generator for fs based TypeScript apis.",
     "main": "dist/index.js",
     "bin": "dist/cli.js",
     "repository": {
@@ -14,7 +14,7 @@
         "build": "tsc"
     },
     "keywords": [],
-    "author": "",
+    "author": "André Thomas",
     "license": "ISC",
     "dependencies": {
         "commander": "^12.1.0",
