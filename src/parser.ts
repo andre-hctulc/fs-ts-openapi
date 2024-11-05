@@ -202,6 +202,10 @@ export class Parser {
         } as any;
     }
 
+    /**
+     * Transforms the schema interface of a file to a JSON schema.
+     * @returns The JSON schema.
+     */
     private parseInterface(file: string): Definition {
         try {
             const settings: PartialArgs = {
